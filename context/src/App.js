@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import logo from "./logo.svg"
+import cat from "/cat.jpg";
 
 const Cat = props => {
   const mouse = props.mouse;
   return (
-    <img src={logo} alt="Logo" style={{position: "absolute", left: mouse.x, top: mouse.y}} />
+    <img src={cat} alt="Logo" style={{position: "absolute", left: mouse.x, top: mouse.y}} />
   );
 };
 
